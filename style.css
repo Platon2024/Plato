@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
+
+@import url(./animation.css);
+
+.container{
+    max-width: 1300px;
+    margin: 0px auto;
+    padding: 100px 0px;
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: black;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+nav{
+    float: right;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 20px;
+}
+
+nav a:hover{
+    color: rgb(202, 131, 23);
+    transition: 0.5s;
+}
+
+.offer{
+    height: 100vh;
+    background: linear-gradient(#DB7E7E, #FFC997);
+}
+
+.acquaint{
+    box-shadow: 3px 3px 0px #b97272;
+    font-size: 30px;
+    height: 90px;
+    border-radius: 50px;
+    padding: 10px;
+    transition: transform 0.5s, background 2s;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 40px;
+    outline: none;
+}
+
+.acquaint:hover{
+    transform: scale(1.05);
+    background: rgb(255, 146, 3);
+}
+
+.acquaint:active{
+    transform: scale(0.9);
+}
+
+h1{
+    text-shadow: 3px 3px 0px #b97272;
+    font-size: 100px;
+}
+
+.glav{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.bg{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+}
+
+.bg-item1{
+    position: absolute;
+    bottom: -35px;
+    left: 200px;
+    animation: circle 19.8s linear 0s infinite;
+}
+
+.bg-item2{
+    position: absolute;
+    bottom: -150px;
+    right: -200px;
+    animation: rotation 30s linear 0s infinite;
+}
+
+.bg-item3{
+    position: absolute;
+    top: -120px;
+    left: -50px;
+}
+
+.bg-item4{
+    position: absolute;
+    top: -70px;
+    right: -50px;
+}
+
+.bg-item5{
+    position: absolute;
+    bottom: -10px;
+    left: -70px;
+    animation: circledaffitline 20s linear 0s infinite;
+}
+
+.bg-item6{
+    position: absolute;
+    bottom: 10%;
+    right: 37%;
+    animation: optican 5s linear 0s infinite;
+}
+
+.bg-item7{
+    position: absolute;
+    bottom: 70%;
+    right: 53%;
+    animation: triangl 20s linear 0s infinite;
+}
+
+.left{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.rite{
+    width: 45%;
+    display: inline-block;
+}
+
+.files{
+    width: 100%;
+}
+
+.h2{
+    text-align: center;
+    font-size: 50px;
+}
+
+.p{
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 30px;
+}
+
+.p2{
+    background-color: white;
+    box-shadow: 10px 10px 0px #E06161;
+    border-radius: 30px;
+    padding: 15px;
+}
+
+.what{
+    background-image: linear-gradient( 7deg, #DB7E7E 18.07%, #FFC997 70%, #FFFFFF 70%);
+}
+
+.thee{
+    background-color: white;
+    border-radius: 30px;
+    border: 5px solid #FFC997;
+    margin: 20px;
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    height: 400px;
+    padding: 10px;
+    text-align: center;
+}
+
+.p3{
+    font-size: 20px;
+}
+
+.ourworksh2{
+    font-size: 50px;
+    text-align: center;
+}
+
+.ourworksbox{
+    display: inline-block;
+    width: 600px;
+    border: 5px solid #FFC997;
+    border-radius: 30px;
+}
+
+.ourworksbigbox{
+    padding-left: 45px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.endbutton{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.endh2{
+    font-size: 50px;
+    text-align: center;
+}
+
+.end{
+    background: linear-gradient(#DB7E7E, #FFC997);
+}
+
+@media (max-width: 768px) {
+    h1{
+        font-size: 70px;
+    }
+
+    nav{
+        display: none;
+    }
+
+    .rite {
+        width: 90%;
+        display: block;
+    }
+
+    .left {
+        width: 80%;
+    }
+
+    .what {
+        text-align: center;
+    }
+    
+    .thee{
+        width: 90%;
+    }
+}
+
+@media (max-width: 393px) {
+    
+}
